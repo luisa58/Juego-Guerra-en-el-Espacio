@@ -11,7 +11,7 @@
 
 1. **Clona el repositorio o descarga el código fuente:**
 
-   Descarga estos archivos
+   Descarga estos archivos o clonar https://github.com/luisa58/Juego-Guerra-en-el-Espacio.git
 
 2. **Instala Pygame:**
     
