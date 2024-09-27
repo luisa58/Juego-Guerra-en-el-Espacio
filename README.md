@@ -22,7 +22,7 @@
 
     space.jpg (Imagen de fondo)
     nave-extraterrestre.png (Imagen del jugador)
-    platillo-volador.png (Imagen de los asteroides)
+    platillo-volador.png (Imagen de los enemigos)
 
 4. **Ejecuta el juego:**
 
