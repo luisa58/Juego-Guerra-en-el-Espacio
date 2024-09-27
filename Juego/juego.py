@@ -31,7 +31,7 @@ asteroid_image = pygame.transform.scale(asteroid_image, (40, 40))
 
 # Inicializar pantalla
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption("Defensor de la Fortaleza")
+pygame.display.set_caption("Guerra en el Espacio")
 
 # Clase Jugador (Fortaleza)
 def draw_player(x, y):
@@ -72,7 +72,7 @@ class Enemy(pygame.sprite.Sprite):
 def show_menu(selected_option):
     screen.blit(background_image, (0, 0))
     font = pygame.font.Font(None, 74)
-    title = font.render("DEFENSOR DE LA FORTALEZA", True, WHITE)
+    title = font.render("Guerra en el Espacio", True, WHITE)
     screen.blit(title, [50, 100])
 
     font = pygame.font.Font(None, 36)
@@ -115,7 +115,7 @@ def show_how_to_play():
     font = pygame.font.Font(None, 36)
     text = font.render("Cómo Jugar: ", True, WHITE)
     screen.blit(text, [50, 50])
-    text = font.render("Defiende la fortaleza de los enemigos.", True, WHITE)
+    text = font.render("Dispara a los enemigos, sin que te toquen", True, WHITE)
     screen.blit(text, [50, 100])
     text = font.render("Usa las teclas para moverte y disparar.", True, WHITE)
     screen.blit(text, [50, 150])
